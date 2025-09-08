@@ -7,7 +7,7 @@ const { title } = defineProps<WorkInProgressProps>();
 </script>
 
 <template>
-    <div class="min-h-[100dvh] flex flex-col justify-center items-center px-4 space-y-4">
+    <div class="h-dvh md:h-full flex flex-col justify-center items-center px-4 gap-4">
         <AppTitle>{{ title }}</AppTitle>
         <UIcon name="i-lucide-construction" class="text-6xl mb-6" />
         <AppSubtitle>
