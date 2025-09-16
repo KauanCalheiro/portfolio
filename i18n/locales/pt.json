@@ -10,6 +10,10 @@
     "subtitle": "Bem-vindo ao meu espaço na internet!",
     "description": "Sou programador fullstack e aspirante a engenheiro de software, apaixonado por backend. Este site é onde me apresento, partilho os meus projetos e conecto-me com outras pessoas."
   },
+  "contact": {
+    "title": "Vamos Falar!",
+    "subtitle": "Tem alguma dúvida, uma ideia de colaboração ou apenas quer dar um olá? Esteja à vontade para entrar em contacto. Terei todo o gosto em ouvir de si."
+  },
   "workInProgress": {
     "title": "Em Construção",
     "description": "Esta página está atualmente em desenvolvimento. Por favor, volte mais tarde para atualizações!"
