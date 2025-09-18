@@ -1,5 +1,5 @@
 <template>
-    <div class="py-4 flex flex-col gap-6 md:gap-12">
+    <div class="py-16 flex flex-col gap-6 md:gap-12">
         <AppTitle class="md:pt-2 mx-auto max-w-2xl text-center">
             {{ $t('contact.title') }}
         </AppTitle>
@@ -13,10 +13,6 @@
             <ContactButtonLinkedin />
             <ContactButtonMail />
             <ContactButtonInstagram />
-            <!-- <UButton class="w-30" label="E-mail" size="xl" />
-            <UButton class="w-30" label="Whatsapp" size="xl" />
-            <UButton class="w-30" label="Whatsapp" size="xl" />
-            <UButton class="w-30" label="Whatsapp" size="xl" /> -->
         </div>
     </div>
 </template>

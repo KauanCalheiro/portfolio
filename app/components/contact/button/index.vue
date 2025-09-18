@@ -4,16 +4,25 @@ import type { ButtonProps } from '@nuxt/ui';
 interface ContactButtonProps {
     icon: string;
     color: ButtonProps['color'];
-    link?: boolean;
+    link?: string;
 }
 
 const {
     icon,
     color,
-    link = false
+    link = undefined
 } = defineProps<ContactButtonProps>();
 
 const modalOpen = ref(false);
+
+const actButton = () => {
+    if (link) {
+        window.open(link, '_blank');
+        return;
+    }
+
+    return toggleModal();
+};
 
 const toggleModal = () => {
     modalOpen.value = !modalOpen.value;
@@ -24,7 +33,7 @@ const toggleModal = () => {
     <UButton
         :color="color"
         class="size-20 flex items-center justify-center"
-        @click="toggleModal"
+        @click="actButton"
     >
         <UIcon
             :name="icon"
@@ -36,6 +45,7 @@ const toggleModal = () => {
         v-if="!link"
         v-model:open="modalOpen"
         closable
+        dismissible
     >
         <slot />
     </Modal>

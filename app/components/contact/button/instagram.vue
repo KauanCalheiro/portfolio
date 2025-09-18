@@ -2,8 +2,6 @@
     <ContactButton
         icon="mdi:instagram"
         color="error"
-        href="https://www.instagram.com/kauanmcalheiro/"
-        target="_blank"
-        link
+        link="https://www.instagram.com/kauanmcalheiro/"
     />
 </template>
