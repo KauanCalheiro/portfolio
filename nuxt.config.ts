@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Kauan Calheiro 🖖🏼',
       meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' },
         { name: 'description', content: 'Welcome to my portfolio website' },
         { name: 'author', content: 'Kauan Morinel Calheiro' },
         { name: 'keywords', content: 'Kauan Morinel Calheiro' },
