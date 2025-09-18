@@ -1,0 +1,1 @@
+export const usePhoneNumber = () => '+5551995282892'

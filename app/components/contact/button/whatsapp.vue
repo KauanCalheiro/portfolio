@@ -3,6 +3,6 @@
         icon="mdi:whatsapp"
         color="success"
     >
-        <Placeholder class="h-52"/>
+        <FormWhatsapp class="sm:w-md"/>
     </ContactButton>
 </template>

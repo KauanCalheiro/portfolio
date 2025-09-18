@@ -17,5 +17,15 @@
   "workInProgress": {
     "title": "Work In Progress",
     "description": "This page is currently under development. Please check back later for updates!"
+  },
+  "whatsapp": {
+    "form": {
+      "message": {
+        "label": "Message",
+        "placeholder": "Type your message here...",
+        "default": "Hello, I would like to get in touch with you."
+      },
+      "submit": "Send via WhatsApp"
+    }
   }
 }

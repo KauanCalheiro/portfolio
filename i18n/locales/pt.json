@@ -17,5 +17,15 @@
   "workInProgress": {
     "title": "Em Construção",
     "description": "Esta página está atualmente em desenvolvimento. Por favor, volte mais tarde para atualizações!"
+  },
+  "whatsapp": {
+    "form": {
+      "message": {
+        "label": "Mensagem",
+        "placeholder": "Escreva a sua mensagem aqui...",
+        "default": "Olá, gostaria de entrar em contacto consigo."
+      },
+      "submit": "Enviar pelo WhatsApp"
+    }
   }
 }
