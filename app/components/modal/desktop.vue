@@ -21,7 +21,7 @@ const [DefineTemplate, ReuseTemplate] = createReusableTemplate();
         v-model:open="isOpen"
         :dismissible="dismissible"
         :ui="{
-            content: 'max-w-[90dvw] h-fit md:max-w-[85dvw] lg:max-w-[75dvw] xl:max-w-[65dvw] 2xl:w-fit divide-none',
+            content: 'max-w-[90dvw] h-fit md:max-w-[85dvw] lg:max-w-[75dvw] xl:max-w-[65dvw] w-fit divide-none',
             header: `${closable ? 'pb-0 sm:pb-0' : ''}`,
             body: `${closable ? 'pt-0 sm:pt-0' : ''}`,
         }"
