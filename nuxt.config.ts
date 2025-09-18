@@ -26,6 +26,10 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
       ]
+    },
+    rootAttrs: {
+      'data-vaul-drawer-wrapper': '',
+      'class': 'bg-default'
     }
   },
 

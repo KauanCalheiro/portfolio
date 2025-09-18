@@ -11,6 +11,8 @@ const isOpen = defineModel<boolean>("open");
         v-model:open="isOpen" 
         :handle="closable" 
         class="max-h-[85dvh]"
+        should-scale-background
+        set-background-color-on-scale
     >
         <template #body>
             <slot />

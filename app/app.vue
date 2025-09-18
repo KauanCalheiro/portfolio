@@ -7,9 +7,11 @@ const { locale } = useI18n()
 <template>
   <ClientOnly>
     <UApp :locale="locales[locale]">
-      <NuxtLayout>
-        <NuxtPage />
-      </NuxtLayout>
+      <div class="bg-default" data-vaul-drawer-wrapper>
+        <NuxtLayout>
+          <NuxtPage />
+        </NuxtLayout>
+      </div>
     </UApp>
   </ClientOnly>
 </template>
