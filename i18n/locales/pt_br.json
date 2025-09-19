@@ -27,5 +27,20 @@
       },
       "submit": "Enviar via WhatsApp"
     }
+  },
+  "email": {
+    "form": {
+      "subject": {
+        "label": "Assunto",
+        "placeholder": "Digite o assunto do email",
+        "default": "Contato pelo Site de Portfólio"
+      },
+      "message": {
+        "label": "Mensagem",
+        "placeholder": "Digite sua mensagem aqui...",
+        "default": "Olá, gostaria de entrar em contato com você."
+      },
+      "submit": "Enviar e-mail"
+    }
   }
 }

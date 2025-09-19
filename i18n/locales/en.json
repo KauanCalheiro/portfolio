@@ -27,5 +27,20 @@
       },
       "submit": "Send via WhatsApp"
     }
+  },
+  "email": {
+    "form": {
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Enter email subject",
+        "default": "Contact from Portfolio Website"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Type your message here...",
+        "default": "Hello, I would like to get in touch with you."
+      },
+      "submit": "Send e-mail"
+    }
   }
 }
