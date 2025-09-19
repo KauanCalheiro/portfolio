@@ -1,5 +1,5 @@
 <template>
-    <section class="w-[100dvw] bg-elevated">
+    <section class="max-w-[100dvw] bg-elevated">
         <div class="min-h-[100dvh] w-full md:max-w-7xl md:mx-auto bg-default">
             <Header/>
             <main class="flex-1 pb-0">
