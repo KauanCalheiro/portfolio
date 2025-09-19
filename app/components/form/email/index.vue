@@ -9,10 +9,6 @@ state.to = useEmailAddress();
 state.subject = $t('email.form.subject.default');
 state.message = $t('email.form.message.default');
 
-const redirectToMailable = (link: string) => {
-    window.open(link, '_blank');
-};
-
 const onSubmit = (event: FormSubmitEvent<EmailSchema>) => {
     const emailLink = useEmailMessage(
         event.data.to,
@@ -20,7 +16,7 @@ const onSubmit = (event: FormSubmitEvent<EmailSchema>) => {
         event.data.message,
     );
 
-    redirectToMailable(emailLink);
+    useRedirect(emailLink, true);
 }
 </script>
 

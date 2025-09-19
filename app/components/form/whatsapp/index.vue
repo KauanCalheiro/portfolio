@@ -9,19 +9,13 @@ const state = reactive<WhatsappSchema>({} as WhatsappSchema);
 state.phone = usePhoneNumber();
 state.message = $t('whatsapp.form.message.default');
 
-const redirectToWhatsapp = (link: string) => {
-    window.open(link, '_blank');
-};
-
 const onSubmit = (event: FormSubmitEvent<WhatsappSchema>) => {
-    console.log('Form submitted:', event.data);
-
     const whatsappLink = useWhatsappMessage(
         event.data.phone,
         event.data.message,
     );
 
-    redirectToWhatsapp(whatsappLink);
+    useRedirect(whatsappLink, true);
 }
 </script>
 
