@@ -1,30 +1,29 @@
 <script setup lang="ts">
 
-interface UserPhotos {
+export interface GalleryPhoto {
     src: string;
-    tilt: 'left' | 'right';
+    tilt: 'left' | 'right' | null;
 }
 
-const imageCardSize = ref(50)
+interface ImageGalleryProps {
+    photos: GalleryPhoto[];
+    size?: number;
+}
 
-const userPhotos = ref<UserPhotos[]>([
-    { src: '/portfolio/photos/3.jpeg', tilt: 'left' },
-    { src: '/portfolio/photos/4.jpeg', tilt: 'right' },
-    { src: '/portfolio/photos/5.jpeg', tilt: 'left' },
-    { src: '/portfolio/photos/1.jpeg', tilt: 'left' },
-    { src: '/portfolio/photos/2.jpeg', tilt: 'right' },
-])
+const { photos, size = 40 } = defineProps<ImageGalleryProps>()
+
+const imageCardSize = ref(size);
 </script>
 
 <template>
-    <div class="w-full flex flex-nowrap md:px-20 md:-space-x-8 justify-center">
+    <div class="flex flex-nowrap md:-space-x-8 justify-center">
         <ImageCard
-            v-for="value in userPhotos"
-            :key="value.src"
+            v-for="photo in photos"
+            :key="photo.src"
             :size="imageCardSize"
-            :src="value.src"
-            :left="value.tilt === 'left'"
-            :right="value.tilt === 'right'"
+            :src="photo.src"
+            :left="photo.tilt === 'left'"
+            :right="photo.tilt === 'right'"
         />
     </div>
 </template>
