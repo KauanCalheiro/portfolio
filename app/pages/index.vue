@@ -1,3 +1,15 @@
+<script setup lang="ts">
+import type { GalleryPhoto } from '~/components/image/gallery.vue';
+
+const userPhotos = ref<GalleryPhoto[]>([
+    { src: '/portfolio/photos/3.jpeg', tilt: 'left' },
+    { src: '/portfolio/photos/4.jpeg', tilt: 'right' },
+    { src: '/portfolio/photos/5.jpeg', tilt: 'left' },
+    { src: '/portfolio/photos/1.jpeg', tilt: 'left' },
+    { src: '/portfolio/photos/2.jpeg', tilt: 'right' },
+])
+</script>
+
 <template>
   <div class="py-4 flex flex-col gap-6 md:gap-12">
 
@@ -18,7 +30,7 @@
     </AppDescription>
 
     <div>
-      <ImageGallery />
+      <ImageGallery :photos="userPhotos" class="md:px-20" />
     </div>
 
   </div>
