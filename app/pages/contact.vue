@@ -8,7 +8,7 @@
             {{ $t('contact.subtitle') }}
         </AppSubtitle>
 
-        <div class="w-full flex flex-wrap justify-center gap-6">
+        <div class="mx-auto w-grid grid grid-cols-2 md:grid-cols-4 justify-items-center gap-6">
             <ContactButtonWhatsapp />
             <ContactButtonLinkedin />
             <ContactButtonMail />
