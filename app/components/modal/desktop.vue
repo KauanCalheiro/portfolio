@@ -22,7 +22,7 @@ const [DefineTemplate, ReuseTemplate] = createReusableTemplate();
         :dismissible="dismissible"
         :ui="{
             content: 'max-w-[90dvw] h-fit md:max-w-[85dvw] lg:max-w-[75dvw] xl:max-w-[65dvw] w-fit divide-none',
-            header: `${closable ? 'pb-0 sm:pb-0' : ''}`,
+            header: `${closable ? 'pb-0 sm:pb-0 min-h-12' : ''}`,
             body: `${closable ? 'pt-0 sm:pt-0' : ''}`,
         }"
     >
