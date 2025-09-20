@@ -32,7 +32,6 @@ const onQrCode = () => {
     <TransitionFade>
         <UForm
             v-if="!qrCode"
-            ref="form"
             class="flex flex-col gap-8"
             :schema="schema"
             :state="state"
