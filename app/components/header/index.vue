@@ -17,7 +17,7 @@
                         <SelectorLocale />
                         <UColorModeButton variant="soft" />
                         <UButton
-                            icon="i-simple-icons:github"
+                            icon="mdi:github"
                             target="_blank"
                             variant="soft"
                             href="https://github.com/KauanCalheiro" 

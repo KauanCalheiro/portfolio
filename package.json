@@ -22,9 +22,11 @@
     "@nuxtjs/i18n": "^10.0.6",
     "@unhead/vue": "^2.0.14",
     "nuxt": "^4.0.3",
+    "nuxt-qrcode": "^0.4.8",
     "zod": "^4.1.8"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.2.3",
     "@nuxt/eslint": "^1.9.0",
     "eslint": "^9.34.0",
     "typescript": "^5.9.2"

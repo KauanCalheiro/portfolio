@@ -14,7 +14,7 @@ const { items } = defineProps<HeaderItemsMobileProps>()
             :items="items"
         >
             <UButton
-                icon="material-symbols:menu-rounded"
+                icon="mdi:menu"
                 variant="soft"
             />
         </UDropdownMenu>
