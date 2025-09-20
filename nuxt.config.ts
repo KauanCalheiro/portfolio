@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/image',
     '@nuxtjs/i18n',
+    'nuxt-qrcode',
   ],
 
   css: ['~/assets/css/main.css'],
@@ -56,6 +57,13 @@ export default defineNuxtConfig({
       code: 'pt',
       file: 'pt.json',
     }]
+  },
+
+  qrcode: {
+    options: {
+      variant: 'rounded',
+      radius: 1
+    },
   },
 
   compatibilityDate: '2025-07-16'
