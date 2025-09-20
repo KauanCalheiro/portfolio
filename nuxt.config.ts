@@ -66,5 +66,11 @@ export default defineNuxtConfig({
     },
   },
 
+  icon: {
+    clientBundle: {
+      scan: true
+    }
+  },
+
   compatibilityDate: '2025-07-16'
 })
