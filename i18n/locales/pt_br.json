@@ -42,5 +42,32 @@
       },
       "submit": "Enviar e-mail"
     }
+  },
+  "about": {
+    "presentation": "Olá! Sou o Kauan, um desenvolvedor fullstack e aspirante a engenheiro de software",
+    "start": {
+      "title": "O começo da jornada",
+      "content": "Desde cedo, sempre fui muito próximo do computador, principalmente por causa dos jogos, foi aí que a faísca por tecnologia acendeu. Com o tempo, esse interesse só cresceu. Iniciei minha jornada no curso técnico em Automação Industrial pelo SENAI, onde tive meu primeiro contato com programação propriamente dita."
+    },
+    "education": {
+      "title": "Botando a mão na massa",
+      "content": "Durante a graduação em Engenharia de Software na Univates, procurei colocar a teoria em prática. Participei do programa Level-up na Interact Solutions como trainee e depois atuei como bolsista de iniciação científica, com projetos em robótica e ensino de pensamento computacional. Essas experiências me ensinaram muito, não só tecnicamente, mas também a lidar com pessoas de diferentes perfis, desde crianças até adultos."
+    },
+    "career": {
+      "title": "A estrada até aqui",
+      "content": "Ao longo do curso, minha carreira evoluiu de forma consistente. Como desenvolvedor fullstack júnior, trabalhei em um sistema legado, monolítico e fortemente acoplado, o que me ensinou a lidar com complexidade e limitações técnicas. Depois, já como pleno, recebi a responsabilidade de manter e evoluir um sistema em que eu era o principal responsável, o que me proporcionou uma experiência valiosa em autonomia, tomada de decisões e alinhamento estratégico com os stakeholders. Como analista de sistemas, gerenciei projetos, desenvolvi APIs, frontend separado do backend e soluções containerizadas, garantindo qualidade, escalabilidade e eficiência nas entregas."
+    },
+    "clients": {
+      "title": "Aprendendo com os outros",
+      "content": "Trabalhar lado a lado com clientes me trouxe mais do que demandas e requisitos, me ensinou a entender expectativas, necessidades e como um produto pode realmente fazer diferença. Por isso, acredito que uma comunicação clara é essencial. Em cada etapa do desenvolvimento, busco priorizar a experiência do usuário, garantindo que o software seja não só funcional, mas simples, intuitivo e agradável de usar, entregando valor real para quem depende dele."
+    },
+    "beyond": {
+      "title": "Vida além do código",
+      "content": "Quando não estou mergulhado em linhas de código, gosto de me movimentar. Academia e esportes sempre fizeram parte da minha rotina — seja levantando peso, pedalando ou jogando vôlei. Também curto explorar novos lugares e culturas, algo que o intercâmbio tem me proporcionado bastante. Ah, e claro, nunca deixei de lado meu lado gamer: desde os tempos de Pokémon no Game Boy, os jogos continuam sendo um jeito de me divertir e também de me conectar com amigos."
+    },
+    "current": {
+      "title": "Hoje em dia",
+      "content": "Atualmente estou no 8º semestre de Engenharia de Software e comecei meu intercâmbio no Instituto Politécnico de Leiria (ESTG), em Portugal. Por hora meu cargo de Analista de Sistemas na Univates está pausado. Estou aproveitando essa oportunidade para expandir meus horizontes, aprender novas tecnologias e culturas, e trazer uma perspectiva internacional para minha carreira."
+    }
   }
 }
