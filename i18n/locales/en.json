@@ -44,5 +44,32 @@
       "submit": "Send e-mail",
       "qrCode": "Generate QR Code"
     }
+  },
+  "about": {
+    "presentation": "Hey there! I'm Kauan, a fullstack developer and aspiring software engineer",
+    "start": {
+      "title": "The First Spark",
+      "content": "From an early age, I was always very close to computers, mainly because of games, that's where the spark for technology was ignited. Over time, this interest only grew stronger. I began my journey in the technical course of Industrial Automation at SENAI, where I had my first real contact with programming."
+    },
+    "education": {
+      "title": "Making It Real",
+      "content": "During my Software Engineering degree at Univates, I sought to put theory into practice. I took part in the Level-up program at Interact Solutions as a trainee and later worked as a scientific initiation scholar, with projects in robotics and teaching computational thinking. These experiences taught me a lot, not only technically, but also how to interact with people of different profiles, from children to adults."
+    },
+    "career": {
+      "title": "The Road So Far",
+      "content": "Throughout my studies, my career evolved consistently. As a junior fullstack developer, I worked on a legacy, monolithic, and tightly coupled system, which taught me how to deal with complexity and technical limitations. Later, as a mid-level developer, I was given the responsibility of maintaining and evolving a system for which I was the main person in charge. This provided me with valuable experience in autonomy, decision-making, and strategic alignment with stakeholders. As a systems analyst, I managed projects, developed APIs, built frontends decoupled from backends, and delivered containerized solutions, ensuring quality, scalability, and efficiency."
+    },
+    "clients": {
+      "title": "Learning through People",
+      "content": "Working side by side with clients gave me more than requirements and demands, it taught me to understand expectations, needs, and how a product can truly make a difference. That's why I believe clear communication is essential. At every stage of development, I strive to prioritize user experience, ensuring that the software is not only functional but also simple, intuitive, and pleasant to use, delivering real value to those who depend on it."
+    },
+    "beyond": {
+      "title": "Life Beyond Code",
+      "content": "When I'm not immersed in lines of code, I like to stay active. Fitness and sports have always been part of my routine, whether lifting weights, cycling, or playing volleyball. I also enjoy exploring new places and cultures, something the exchange program has offered me plenty of opportunities for. And of course, I never left behind my gamer side: since the days of Pokémon on the Game Boy, games have been a way for me to have fun and also connect with friends."
+    },
+    "current": {
+      "title": "These Days",
+      "content": "I am currently in the 8th semester of Software Engineering and have started my exchange program at the Polytechnic Institute of Leiria (ESTG), in Portugal. For now, my position as a Systems Analyst at Univates is on hold. I am taking this opportunity to expand my horizons, learn new technologies and cultures, and bring an international perspective to my career."
+    }
   }
 }
