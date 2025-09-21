@@ -6,22 +6,22 @@ const { isMobile } = useDevice()
 const items = ref([
     {
         label: computed( () => $t('header.home')),
-        icon: 'material-symbols:home-rounded',
+        icon: 'mdi:home',
         to: '/'
     },
     {
         label: computed( () => $t('header.about')),
-        icon: 'material-symbols:info',
+        icon: 'mdi:information',
         to: '/about'
     },
     {
         label: computed( () => $t('header.projects')),
-        icon: 'material-symbols:work',
+        icon: 'mdi:briefcase',
         to: '/projects'
     },
     {
         label: computed( () => $t('header.contact')),
-        icon: 'material-symbols:contacts-rounded',
+        icon: 'mdi:contacts',
         to: '/contact'
     }
 ])

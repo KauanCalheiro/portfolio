@@ -25,7 +25,8 @@
         "placeholder": "Escreva a sua mensagem aqui...",
         "default": "Olá, gostaria de entrar em contacto consigo."
       },
-      "submit": "Enviar pelo WhatsApp"
+      "submit": "Enviar pelo WhatsApp",
+      "qrCode": "Gerar Código QR"
     }
   },
   "email": {
@@ -40,7 +41,8 @@
         "placeholder": "Escreva a sua mensagem aqui...",
         "default": "Olá, gostaria de entrar em contacto consigo."
       },
-      "submit": "Enviar e-mail"
+      "submit": "Enviar e-mail",
+      "qrCode": "Gerar Código QR"
     }
   },
   "about": {
