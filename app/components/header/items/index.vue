@@ -23,6 +23,11 @@ const items = ref([
         label: computed( () => $t('header.contact')),
         icon: 'mdi:contacts',
         to: '/contact'
+    },
+    {
+        label: computed( () => $t('header.certificates')),
+        icon: 'mdi:certificate',
+        to: '/certificates'
     }
 ])
 
