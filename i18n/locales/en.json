@@ -15,6 +15,10 @@
     "title": "Let's Connect!",
     "subtitle": "Have a question, collaboration idea, or just want to say hi? Feel free to reach out. I'd love to hear from you."
   },
+  "certificates": {
+    "title": "My Certificates",
+    "description": "Here are some of the certificates I've earned through various courses and training programs. They represent my commitment to continuous learning and professional development."
+  },
   "workInProgress": {
     "title": "Work In Progress",
     "description": "This page is currently under development. Please check back later for updates!"

@@ -15,6 +15,10 @@
     "title": "Vamos Conversar!",
     "subtitle": "Tem uma dúvida, uma ideia de colaboração ou só quer dizer um oi? Sinta-se à vontade para entrar em contato. Vou adorar falar com você."
   },
+  "certificates": {
+    "title": "Meus Certificados",
+    "description": "Aqui estão alguns dos certificados que conquistei através de diversos cursos e programas de treinamento. Eles representam meu compromisso com o aprendizado contínuo e desenvolvimento profissional."
+  },
   "workInProgress": {
     "title": "Em Construção",
     "description": "Esta página está atualmente em desenvolvimento. Por favor, volte mais tarde para atualizações!"
