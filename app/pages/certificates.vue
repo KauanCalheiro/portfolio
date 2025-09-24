@@ -4,6 +4,12 @@ const certificates = useCertificates()
 
 <template>
     <div class="pt-10 md:pt-12 md:pb-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <AppTitle class="col-span-full text-center">
+            {{ $t("certificates.title") }}
+        </AppTitle>
+        <AppSubtitle class="col-span-full text-justify ">
+            {{ $t("certificates.description") }}
+        </AppSubtitle>
         <Certificate
             v-for="certificate in certificates"
             :key="certificate.link"
