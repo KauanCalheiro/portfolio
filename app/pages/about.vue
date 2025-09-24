@@ -14,9 +14,9 @@ const imgSize = computed(() => isMobile.value ? 20 : 40)
 <template>
     <div class="pt-10 md:pt-12 md:pb-6 md:px-12 flex flex-col gap-6">
         <div class="w-full flex flex-wrap-reverse lg:flex-nowrap gap-6 lg:gap-0 items-center">
-            <AppSubtitle class="!font-bold mx-auto max-w-2xl w-fit text-center lg:text-left">
+            <AppTitle class="mx-auto w-fit text-center lg:text-left">
                 {{ $t("about.presentation") }}
-            </AppSubtitle>
+            </AppTitle>
             <ImageGallery 
                 class="px-8 lg:px-2 w-full lg:w-auto"
                 :photos="userPhotos" 
