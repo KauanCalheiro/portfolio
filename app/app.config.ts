@@ -6,8 +6,16 @@ export default defineAppConfig({
       neutral: 'neutral',
     },
     button: {
+      slots: {
+        base: 'cursor-pointer'
+      },
       defaultVariants: {
         color: 'neutral'
+      }
+    },
+    selectMenu: {
+      slots: {
+        base: 'cursor-pointer'
       }
     }
   }
