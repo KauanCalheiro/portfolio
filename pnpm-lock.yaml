@@ -8,6 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@iconify-json/devicon':
+        specifier: ^1.2.45
+        version: 1.2.45
+      '@iconify-json/emojione-v1':
+        specifier: ^1.2.3
+        version: 1.2.3
+      '@iconify-json/heroicons':
+        specifier: ^1.2.3
+        version: 1.2.3
       '@iconify-json/lucide':
         specifier: ^1.2.68
         version: 1.2.68
@@ -491,6 +500,15 @@ packages:
   '@humanwhocodes/retry@0.4.3':
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
+
+  '@iconify-json/devicon@1.2.45':
+    resolution: {integrity: sha512-EgowZDawRGJb72FlKKcOPwoMpdDkrqAVWNHhK7qSLI9sYAm7OkfLm/Vvjuqul1XCWA4KBylFv0szWPVpTkzVIg==}
+
+  '@iconify-json/emojione-v1@1.2.3':
+    resolution: {integrity: sha512-UjI2VQEXVtGlPBvQuxEizro7QCgBcJDOYwKUupquvvZ8UV4xOlvm45IU82JYWegiAWLerY79gFLMZ26U6Ms+ww==}
+
+  '@iconify-json/heroicons@1.2.3':
+    resolution: {integrity: sha512-n+vmCEgTesRsOpp5AB5ILB6srsgsYK+bieoQBNlafvoEhjVXLq8nIGN4B0v/s4DUfa0dOrjwE/cKJgIKdJXOEg==}
 
   '@iconify-json/lucide@1.2.68':
     resolution: {integrity: sha512-lR5xNJdn2CT0iR7lM25G4SewBO4G2hbr3fTWOc3AE9BspflEcneh02E3l9TBaCU/JOHozTJevWLrxBGypD7Tng==}
@@ -5708,6 +5726,18 @@ snapshots:
   '@humanwhocodes/module-importer@1.0.1': {}
 
   '@humanwhocodes/retry@0.4.3': {}
+
+  '@iconify-json/devicon@1.2.45':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/emojione-v1@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/heroicons@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/lucide@1.2.68':
     dependencies:
