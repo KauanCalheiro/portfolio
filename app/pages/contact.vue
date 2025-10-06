@@ -1,6 +1,6 @@
 <template>
-    <div class="py-16 flex flex-col gap-6 md:gap-12">
-        <AppTitle class="md:pt-2 mx-auto max-w-2xl text-center">
+    <div class="py-14 md:pt-12 md:py-0 flex flex-col gap-6 md:gap-12">
+        <AppTitle class="mx-auto max-w-2xl text-center">
             {{ $t('contact.title') }}
         </AppTitle>
 
