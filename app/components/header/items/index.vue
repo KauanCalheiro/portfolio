@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { HeaderItemsDesktop, HeaderItemsMobile } from '#components';
 
-const { isMobile } = useDevice()
+const { isDesktop } = useDevice()
 
 const items = ref([
     {
@@ -28,13 +28,23 @@ const items = ref([
         label: computed( () => $t('header.certificates')),
         icon: 'mdi:certificate',
         to: '/certificates'
+    },
+    {
+        label: computed( () => $t('header.skills')),
+        icon: 'mdi:school',
+        to: '/skills'
+    },
+    {
+        label: computed( () => $t('header.timeline')),
+        icon: 'mdi:timeline',
+        to: '/timeline'
     }
 ])
 
 const HeaderItemsFacade = computed(() => {
-    return isMobile.value
-        ? HeaderItemsMobile
-        : HeaderItemsDesktop
+    return isDesktop.value
+        ? HeaderItemsDesktop
+        : HeaderItemsMobile
 })
 </script>
 
