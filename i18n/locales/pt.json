@@ -4,7 +4,9 @@
     "about": "Sobre",
     "projects": "Projetos",
     "contact": "Contacto",
-    "certificates": "Certificados"
+    "certificates": "Certificados",
+    "skills": "Competências",
+    "timeline": "Linha do Tempo"
   },
   "hero": {
     "title": "Olá, sou o Kauan.",
@@ -14,6 +16,38 @@
   "contact": {
     "title": "Vamos Falar!",
     "subtitle": "Tem alguma dúvida, uma ideia de colaboração ou apenas quer dar um olá? Esteja à vontade para entrar em contacto. Terei todo o gosto em ouvir de si."
+  },
+  "skills": {
+    "title": "As Minhas Competências",
+    "items": {
+      "technology": {
+        "title": "Tecnologias"
+      },
+      "soft-skill": {
+        "title": "Competências Interpessoais",
+        "items": {
+          "effective-communication": "Comunicação Eficaz",
+          "problem-solving": "Resolução de Problemas",
+          "teamwork": "Trabalho em Equipa",
+          "adaptability": "Adaptabilidade",
+          "time-management": "Gestão de Tempo",
+          "user-centered-thinking": "Pensamento Centrado no Utilizador"
+        }
+      },
+      "language": {
+        "title": "Línguas",
+        "items": {
+          "portuguese": {
+            "name": "Português",
+            "level": "Nativo"
+          },
+          "english": {
+            "name": "Inglês",
+            "level": "Avançado (C1)"
+          }
+        }
+      }
+    }
   },
   "certificates": {
     "title": "Os Meus Certificados",
@@ -75,6 +109,46 @@
     "current": {
       "title": "Atualmente",
       "content": "Estou neste momento no 8.º semestre da licenciatura em Engenharia de Software e iniciei o meu intercâmbio no Instituto Politécnico de Leiria (ESTG), em Portugal. Para já, o meu cargo de Analista de Sistemas na Univates encontra-se suspenso. Estou a aproveitar esta oportunidade para expandir os meus horizontes, aprender novas tecnologias e culturas e trazer uma perspetiva internacional para a minha carreira."
+    }
+  },
+  "timeline": {
+    "title": "A Minha Jornada",
+    "items": {
+      "exchange": {
+        "title": "Intercâmbio",
+        "description": "Instituto Politécnico de Leiria (ESTG), Portugal",
+        "date": "Set de 2025 - Presente"
+      },
+      "systems-analyst": {
+        "title": "Analista de Sistemas (suspenso)",
+        "description": "Univates",
+        "date": "Out de 2024 - Set de 2025"
+      },
+      "mid-developer": {
+        "title": "Programador Pleno",
+        "description": "Univates",
+        "date": "Jan de 2024 - Out de 2024"
+      },
+      "junior-developer": {
+        "title": "Programador Júnior",
+        "description": "Univates",
+        "date": "Jul de 2023 - Dez de 2023"
+      },
+      "scholarship": {
+        "title": "Bolseiro",
+        "description": "Univates",
+        "date": "Jun de 2022 - Nov de 2023"
+      },
+      "software-engineering": {
+        "title": "Engenharia de Software",
+        "description": "Univates",
+        "date": "Fev de 2022 - Presente"
+      },
+      "industrial-automation": {
+        "title": "Técnico em Automação Industrial",
+        "description": "SENAI",
+        "date": "Fev de 2021 - Nov de 2022"
+      }
     }
   }
 }

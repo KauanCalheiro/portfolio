@@ -4,7 +4,9 @@
     "about": "About",
     "projects": "Projects",
     "contact": "Contact",
-    "certificates": "Certificates"
+    "certificates": "Certificates",
+    "skills": "Skills",
+    "timeline": "Timeline"
   },
   "hero": {
     "title": "Hello, I'm Kauan.",
@@ -14,6 +16,38 @@
   "contact": {
     "title": "Let's Connect!",
     "subtitle": "Have a question, collaboration idea, or just want to say hi? Feel free to reach out. I'd love to hear from you."
+  },
+  "skills": {
+    "title": "My Skills",
+    "items": {
+      "technology": {
+        "title": "Technologies"
+      },
+      "soft-skill": {
+        "title": "Soft Skills",
+        "items": {
+          "effective-communication": "Effective Communication",
+          "problem-solving": "Problem-Solving",
+          "teamwork": "Teamwork",
+          "adaptability": "Adaptability",
+          "time-management": "Time Management",
+          "user-centered-thinking": "User-Centered Thinking"
+        }
+      },
+      "language": {
+        "title": "Languages",
+        "items": {
+          "portuguese": {
+            "name": "Portuguese",
+            "level": "Native"
+          },
+          "english": {
+            "name": "English",
+            "level": "Advanced (C1)"
+          }
+        }
+      }
+    }
   },
   "certificates": {
     "title": "My Certificates",
@@ -75,6 +109,46 @@
     "current": {
       "title": "These Days",
       "content": "I am currently in the 8th semester of Software Engineering and have started my exchange program at the Polytechnic Institute of Leiria (ESTG), in Portugal. For now, my position as a Systems Analyst at Univates is on hold. I am taking this opportunity to expand my horizons, learn new technologies and cultures, and bring an international perspective to my career."
+    }
+  },
+  "timeline": {
+    "title": "My Journey",
+    "items": {
+      "exchange": {
+        "title": "Exchange Program",
+        "description": "Polytechnic Institute of Leiria (ESTG), Portugal",
+        "date": "Sep 2025 - Present"
+      },
+      "systems-analyst": {
+        "title": "Systems Analyst (on hold)",
+        "description": "Univates",
+        "date": "Oct 2024 - Sep 2025"
+      },
+      "mid-developer": {
+        "title": "Mid-Level Developer",
+        "description": "Univates",
+        "date": "Jan 2024 - Oct 2024"
+      },
+      "junior-developer": {
+        "title": "Junior Developer",
+        "description": "Univates",
+        "date": "Jul 2023 - Dec 2023"
+      },
+      "scholarship": {
+        "title": "Research Scholar",
+        "description": "Univates",
+        "date": "Jun 2022 - Nov 2023"
+      },
+      "software-engineering": {
+        "title": "Software Engineering",
+        "description": "Univates",
+        "date": "Feb 2022 - Present"
+      },
+      "industrial-automation": {
+        "title": "Industrial Automation Technician",
+        "description": "SENAI",
+        "date": "Feb 2021 - Nov 2022"
+      }
     }
   }
 }
