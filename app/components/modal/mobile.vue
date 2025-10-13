@@ -7,9 +7,9 @@ const isOpen = defineModel<boolean>("open");
 </script>
 
 <template>
-    <UDrawer 
-        v-model:open="isOpen" 
-        :handle="closable" 
+    <UDrawer
+        v-model:open="isOpen"
+        :handle="true"
         class="max-h-[85dvh]"
         should-scale-background
         set-background-color-on-scale
