@@ -150,5 +150,8 @@
         "date": "Fev de 2021 - Nov de 2022"
       }
     }
+  },
+  "common": {
+    "copied-to-clipboard": "Copiado para a área de transferência!"
   }
 }
