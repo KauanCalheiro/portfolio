@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { isLargeDesktop } = useDevice()
+</script>
+
 <template>
     <header class="w-full fixed bottom-0 md:top-4 md:max-w-7xl z-100 md:px-2 h-fit">
         <div class="flex justify-between items-center gap-4 py-2 my-4 mx-4 md:mx-0 px-6 bg-default rounded-2xl border-[0.5px] border-accented">
@@ -6,23 +10,24 @@
                     <LogoKmc />
                 </slot>
             </div>
-            <div>
+            <div v-if="isLargeDesktop">
                 <slot name="default">
-                  <HeaderItems />
+                    <HeaderItems />
                 </slot>
             </div>
             <div>
                 <slot name="right">
                     <div class="flex gap-2">
-                        <SelectorLocale />
+                        <HeaderItems v-if="!isLargeDesktop" />
                         <ShareButton />
                         <UColorModeButton variant="soft" />
                         <UButton
-                            icon="mdi:github"
-                            target="_blank"
-                            variant="soft"
-                            href="https://github.com/KauanCalheiro" 
+                        icon="mdi:github"
+                        target="_blank"
+                        variant="soft"
+                        href="https://github.com/KauanCalheiro" 
                         />
+                        <SelectorLocale />
                     </div>
                 </slot>
             </div>
