@@ -119,6 +119,13 @@ export default defineNuxtConfig({
         'devicon:vscode',
         'devicon:bash',
         'devicon:openapi',
+        'mdi:clipboard-multiple-outline',
+        'mdi:clipboard-check-multiple-outline',
+        'mdi:check-decagram',
+        'mdi:stop-remove',
+        'mdi:alert',
+        'mdi:information',
+        'mdi:bell',
       ],
       sizeLimitKb: 1000
     }
