@@ -15,6 +15,7 @@
                 <slot name="right">
                     <div class="flex gap-2">
                         <SelectorLocale />
+                        <ShareButton />
                         <UColorModeButton variant="soft" />
                         <UButton
                             icon="mdi:github"
