@@ -1,11 +1,4 @@
 <script setup lang="ts">
-import type { GalleryPhoto } from '~/components/image/gallery.vue';
-
-const userPhotos = ref<GalleryPhoto[]>([
-    { src: '/portfolio/photos/2.jpeg', tilt: null },
-    { src: '/portfolio/photos/17.jpeg', tilt: 'right' },
-])
-
 const { isMobile } = useDevice()
 
 const imgSize = computed(() => isMobile.value ? 20 : 40)
@@ -17,10 +10,13 @@ const imgSize = computed(() => isMobile.value ? 20 : 40)
             <AppTitle class="mx-auto w-fit text-center lg:text-left">
                 {{ $t("about.presentation") }}
             </AppTitle>
-            <ImageGallery 
+            <ImageGallery
                 class="px-8 lg:px-2 w-full lg:w-auto"
-                :photos="userPhotos" 
-                :size="imgSize" 
+                :photos="[
+                    { src: '/portfolio/photos/2.jpeg', tilt: null },
+                    { src: '/portfolio/photos/17.jpeg', tilt: 'right' },
+                ]"
+                :size="imgSize"
             />
         </div>
         <USeparator class="my-6" />
