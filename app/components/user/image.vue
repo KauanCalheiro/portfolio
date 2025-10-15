@@ -10,7 +10,7 @@ const { size = 10 } = defineProps<UserImageProps>()
     <img
         class="rounded-full object-cover"
         :class="`h-${size} w-${size}`"
-        src="/photos/17.jpeg"
+        src="/photos/3.jpeg"
         alt="User Image"
     >
 </template>

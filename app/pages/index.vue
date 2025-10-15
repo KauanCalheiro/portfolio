@@ -2,7 +2,7 @@
 import type { GalleryPhoto } from '~/components/image/gallery.vue';
 
 const userPhotos = ref<GalleryPhoto[]>([
-    { src: '/portfolio/photos/17.jpeg', tilt: 'left' },
+    { src: '/portfolio/photos/3.jpeg', tilt: 'left' },
     { src: '/portfolio/photos/4.jpeg', tilt: 'right' },
     { src: '/portfolio/photos/5.jpeg', tilt: 'left' },
     { src: '/portfolio/photos/1.jpeg', tilt: 'left' },

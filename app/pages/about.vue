@@ -14,7 +14,7 @@ const imgSize = computed(() => isMobile.value ? 20 : 40)
                 class="px-8 lg:px-2 w-full lg:w-auto"
                 :photos="[
                     { src: '/portfolio/photos/2.jpeg', tilt: null },
-                    { src: '/portfolio/photos/17.jpeg', tilt: 'right' },
+                    { src: '/portfolio/photos/3.jpeg', tilt: 'right' },
                 ]"
                 :size="imgSize"
             />
