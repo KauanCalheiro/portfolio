@@ -3,7 +3,7 @@ import type { GalleryPhoto } from '~/components/image/gallery.vue';
 
 const userPhotos = ref<GalleryPhoto[]>([
     { src: '/portfolio/photos/2.jpeg', tilt: null },
-    { src: '/portfolio/photos/1.jpeg', tilt: 'right' },
+    { src: '/portfolio/photos/17.jpeg', tilt: 'right' },
 ])
 
 const { isMobile } = useDevice()
