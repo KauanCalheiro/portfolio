@@ -6,22 +6,22 @@ export default defineNuxtPlugin(() => {
     alreadyPreloaded = true
 
     const assetPaths = [
-        'public/photos/1.jpeg',
-        'public/photos/2.jpeg',
-        'public/photos/3.jpeg',
-        'public/photos/4.jpeg',
-        'public/photos/5.jpeg',
-        'public/photos/6.jpeg',
-        'public/photos/7.jpeg',
-        'public/photos/8.jpeg',
-        'public/photos/9.jpeg',
-        'public/photos/10.jpeg',
-        'public/photos/11.jpeg',
-        'public/photos/12.jpeg',
-        'public/photos/13.jpeg',
-        'public/photos/14.jpeg',
-        'public/photos/15.jpg',
-        'public/photos/16.jpeg',
+        'photos/1.jpeg',
+        'photos/2.jpeg',
+        'photos/3.jpeg',
+        'photos/4.jpeg',
+        'photos/5.jpeg',
+        'photos/6.jpeg',
+        'photos/7.jpeg',
+        'photos/8.jpeg',
+        'photos/9.jpeg',
+        'photos/10.jpeg',
+        'photos/11.jpeg',
+        'photos/12.jpeg',
+        'photos/13.jpeg',
+        'photos/14.jpeg',
+        'photos/15.jpg',
+        'photos/16.jpeg',
     ]
 
     assetPaths.forEach(path => {
