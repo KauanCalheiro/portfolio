@@ -22,7 +22,7 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'Kauan M C' },
         { name: 'keywords', content: 'Kauan M Calheiro' },
         { name: 'keywords', content: 'Kauan Morinel C' },
-        { name: 'google-site-verification', content: '9Ow6Qh3AvahGlmFrmEu7mRx4eP18TyX8MLMwDhXfYnA' },
+        { name: 'google-site-verification', content: 'iyTxXR7_PI9l6VQ0ADIgSks66yJtcivOxSvat3pOq5w' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
